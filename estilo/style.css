@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+/*# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+> 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
+
+## Colors
+
+### Primary
+
+- Nutmeg: hsl(14, 45%, 36%)
+- Dark Raspberry: hsl(332, 51%, 32%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Rose White: hsl(330, 100%, 98%)
+- Eggshell: hsl(30, 54%, 90%)
+- Light Grey: hsl(30, 18%, 87%)
+- Wenge Brown: hsl(30, 10%, 34%)
+- Dark Charcoal: hsl(24, 5%, 18%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Fonts
+
+- Family: [Young Serif](https://fonts.google.com/specimen/Young+Serif)
+- Weights: 400
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 600, 700
+*/
+:root {
+    --fonte1: 'Young Serif', serif;
+    --fonte2: 'Outfit', sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(30, 10%, 34%);
+}
+
+main {
+    background-color:  hsl(0, 0%, 100%);
+    margin: 10px;
+    border-radius: 15px;
+    
+}
+
+article {
+    min-width: 375px;
+    max-width:1440px ;
+    padding: 10px;
+}
+
+article > img {
+    width: 89vw;
+    height: 25vh;
+    background-size: cover;
+    background-color: gray;
+    border-radius: 15px;
+}
+
+article > h1 {
+    font-family: var(--fonte1);
+    font-weight: 400;
+}
+
+
+article > p {
+    text-align: justify;
+    text-indent: 15px;
+    padding-bottom: 1em ;
+}
+
+article > h2 {
+    color: hsl(24, 5%, 18%);
+    padding-top: 1em;
+    padding-bottom: 0.2em;
+}
+
+section {
+    background-color:hsl(330, 100%, 98%) ;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+section > h2 {
+    color: hsl(332, 51%, 32%);
+}
+
+ol, ul{
+    list-style-position: inside;
+    padding-bottom: 5px;
+}
+hr {
+    border: 0.1em solid rgba(0, 0, 0, 0.281);
+}
+
+footer {
+    background-color: hsl(24, 5%, 18%);
+    color:  hsl(0, 0%, 100%);
+}
+
+footer a {
+    color:hsl(0, 0%, 100%)
+}
