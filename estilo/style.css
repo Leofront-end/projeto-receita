@@ -111,12 +111,18 @@ ol, ul{
     list-style-position: inside;
     padding-bottom: 5px;
 }
+
+span.instrucao {
+    font-weight: bold;
+}
+
 hr {
     border: 0.1em solid rgba(0, 0, 0, 0.281);
 }
 
 td {
     padding-right: 100px;
+    text-align: right;
 }
 
 footer {
